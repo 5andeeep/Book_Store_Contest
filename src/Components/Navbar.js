@@ -24,7 +24,7 @@ function Navbar({ onSearch }) {
             type="text"
             onChange={(e) => setQuery(e.target.value)}
             className="search-input"
-            placeholder="Search for the book you want and read it now... Sherlock Holmes, Harry Pot..."
+            placeholder="Search"
           />
         </div>
         <div className="search-button">
